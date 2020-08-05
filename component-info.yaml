@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-java-ben
+  description: Ben Java Spotify Test
+  annotations:
+    github.com/project-slug: blamdemo/java-workflow-test
+    backstage.io/github-actions-id: blamdemo/java-workflow-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
